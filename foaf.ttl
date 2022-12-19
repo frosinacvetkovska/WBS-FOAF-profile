@@ -1,0 +1,31 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/frosinacvetkovska/WBS-FOAF-profile/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/frosinacvetkovska/WBS-FOAF-profile/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/frosinacvetkovska/WBS-FOAF-profile/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/frosinacvetkovska/WBS-FOAF-profile/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Frosina Cvetkovska" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Frosina" ;
+  foaf:family_name "Cvetkovska" ;
+  foaf:nick "Frose" ;
+  foaf:mbox_sha1sum "eec39e2383b66be12d2119aa72e670b5d4d8b681" ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Emilijan Koteski" ;
+    foaf:mbox_sha1sum "cd71ef521e142ab1e8265880d742ab68d289dd28" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Martin Nikolov" ;
+    foaf:mbox_sha1sum "7d4c9bb13bb0354b184fead5ec187ea33bf5121a" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl >
+  ] .
