@@ -27,5 +27,5 @@
     a foaf:Person ;
     foaf:name "Martin Nikolov" ;
     foaf:mbox_sha1sum "7d4c9bb13bb0354b184fead5ec187ea33bf5121a" ;
-    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl >
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
   ] .
